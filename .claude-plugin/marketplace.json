@@ -1,0 +1,16 @@
+{
+  "name": "agent-mods",
+  "owner": { "name": "Miguel de Castro" },
+  "plugins": [
+    {
+      "name": "subagents-tab-view",
+      "source": "./plugins/subagents-tab-view",
+      "description": "Panel of subagents with model, cost, steps accordion and model-based crab costumes"
+    },
+    {
+      "name": "subagent-model-router",
+      "source": "./plugins/subagent-model-router",
+      "description": "Picks opus, sonnet or haiku for each built-in subagent from keywords in its task"
+    }
+  ]
+}

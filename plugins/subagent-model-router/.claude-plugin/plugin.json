@@ -1,0 +1,6 @@
+{
+  "name": "subagent-model-router",
+  "version": "0.1.0",
+  "description": "Picks opus, sonnet or haiku for each built-in subagent from keywords in its task.",
+  "license": "MIT"
+}

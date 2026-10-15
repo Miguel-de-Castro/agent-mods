@@ -1,0 +1,46 @@
+{
+  "name": "subagents-tab-view",
+  "version": "0.1.0",
+  "description": "A panel of your subagents with model, context, cost and time, a per-agent Steps accordion, and a crab whose costume follows the model. Fork of the agents panel from JohnnyVizz/claude-kit (MIT).",
+  "author": {
+    "name": "johnnyvizz",
+    "url": "https://github.com/johnnyvizz"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Panel language",
+      "description": "auto follows Claude Code's language setting, then the system locale; en, ru or he (Hebrew, drawn right to left)",
+      "default": "auto",
+      "options": [
+        "auto",
+        "en",
+        "ru",
+        "he"
+      ]
+    },
+    "autoOpen": {
+      "type": "string",
+      "title": "Open the agents panel",
+      "description": "plan: when a plan is reported to the progress bar; any: also when any subagent starts",
+      "default": "plan",
+      "options": [
+        "plan",
+        "any"
+      ]
+    },
+    "stepsFor": {
+      "type": "string",
+      "title": "Ask subagents for step reports",
+      "description": "all: every subagent is asked to report its steps, which feeds the Steps accordion; off: never",
+      "default": "all",
+      "options": [
+        "all",
+        "off"
+      ]
+    }
+  },
+  "repository": "https://github.com/JohnnyVizz/claude-kit",
+  "license": "MIT"
+}
